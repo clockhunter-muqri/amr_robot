@@ -19,7 +19,7 @@ def generate_launch_description():
     pkg_path = os.path.join(get_package_share_directory('amr_robot'))
 
     #Robot Desciption Parameter
-
+    
     robot_description_config = xacro.process_file(xacro_file)
     
     # Create a robot_state_publisher node
